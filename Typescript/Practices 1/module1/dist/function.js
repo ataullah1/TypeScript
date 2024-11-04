@@ -2,4 +2,5 @@
 function add(num1, num2) {
     return num1 + num2;
 }
-add(22, 34);
+const func = add(22, 34);
+console.log(func);
